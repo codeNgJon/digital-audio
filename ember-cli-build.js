@@ -7,6 +7,10 @@ module.exports = function(defaults) {
     // Add options here
   });
 
+  app.import('vendor/processing.min.js');
+  app.import('vendor/maxim.js');
+  app.import('vendor/data/atmos1.wav');
+  app.import('vendor/data/bells.wav');
   // Use `app.import` to add additional libraries to the generated
   // output files.
   //
